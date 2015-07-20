@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Project0"
+    android:id="@+id/p0">
+
+    <TextView android:text="@string/title" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="18dp"
+        android:textColor="#ff373737" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Super Duo"
+        android:id="@+id/super_duo"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:onClick="setToasts" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Build It Bigger"
+        android:id="@+id/build_it_bigger"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/super_duo"
+        android:layout_alignLeft="@+id/super_duo"
+        android:layout_alignStart="@+id/super_duo"
+        android:onClick="setToasts" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XYZ Reader"
+        android:id="@+id/xyz_reader"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:layout_below="@+id/build_it_bigger"
+        android:layout_alignLeft="@+id/build_it_bigger"
+        android:layout_alignStart="@+id/build_it_bigger"
+        android:layout_marginTop="31dp"
+        android:onClick="setToasts" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capstone "
+        android:id="@+id/capstone"
+        android:width="200dp"
+        android:background="#F08C35"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/xyz_reader"
+        android:layout_alignLeft="@+id/xyz_reader"
+        android:layout_alignStart="@+id/xyz_reader"
+        android:onClick="setToasts" />
+
+</RelativeLayout>
