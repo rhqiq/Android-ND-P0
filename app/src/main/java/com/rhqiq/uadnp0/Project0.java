@@ -49,7 +49,7 @@ public class Project0 extends ActionBarActivity {
         int duration = Toast.LENGTH_SHORT;
 
         Button pushedButton = (Button) findViewById(view.getId());
-        String displayText = "This button will lunch my" + pushedButton.getText() + "app";
+        String displayText = "This button will lunch my " + pushedButton.getText() + " app";
 
         Toast toast = Toast.makeText(context, displayText, duration);
         toast.show();
